@@ -1,5 +1,6 @@
 import requests
 from json.decoder import JSONDecodeError
+import sys
 
 class NotOkStatus(Exception):
     pass
